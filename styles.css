@@ -22,6 +22,7 @@ body {
 
     background-color: #231a33;
     position: fixed;
+    /*float: left;*/
     width: 200px;
     height: 100%;
     left: 0;
@@ -80,4 +81,10 @@ p {
 button {
 
     outline: thick ridge #cab4ff;
+}
+
+@media screen and (max-width: 600px) {
+    {
+        background-color: aqua;
+    }
 }
